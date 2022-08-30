@@ -11,9 +11,7 @@ class Game
     @letters = word.upcase.chars
     @user_guesses = []
   end
-
- 
-
+  
   # Возвращает массив букв, введенных пользователем, но отсутствующих в
   # загаданном слове (ошибочные буквы)
   def errors
